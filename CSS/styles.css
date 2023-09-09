@@ -29,8 +29,8 @@ header, main, footer {
 }
 
 header {
-    background-color:#3a9cab;
-    h1 {color: white;}
+    background-color:#7acdda;
+    color: white;
     border-radius: 10px;
     text-align: center;
     margin-top: 30px; 
@@ -38,7 +38,7 @@ header {
 }
 
 h1 {
-    color: #3a9cab;
+    color: #257c8a;
     font-family: 'Acme', sans-serif;
 }
 h2 {
@@ -60,7 +60,7 @@ body{
 }
 
 footer {
-    background-color:#3a9cab;
+    background-color:7acdda;
     border-radius: 10px;
     text-align: center;
     padding: 5px;
@@ -99,7 +99,7 @@ footer {
 }
 .btn-1:hover {
    background: #6bc6d4;
-background: linear-gradient(0deg, #196a77 0%, #6bacb6 100%);
+background: linear-gradient(0deg, #a2e7f1 0%, #6bacb6 100%);
 }
 
 
