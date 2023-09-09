@@ -1,22 +1,22 @@
 
 /* unvisited link */
 a:link {
-  color: darkblue;
+  color: rgb(138, 106, 1);
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: #00bd3f;
+  color: rgb(164, 167, 3);
 }
 /* mouse over link */
 a:hover {
-  color: #39ff7b; 
+  color: rgb(128, 129, 44);
   }
 
 /* selected link */
 a:active {
-  color: #318d50;
+  color: rgb(167, 129, 3);
 }
 
 
@@ -60,7 +60,7 @@ body{
 }
 
 footer {
-    background-color:7acdda;
+    background-color:#7acdda;
     border-radius: 10px;
     text-align: center;
     padding: 5px;
