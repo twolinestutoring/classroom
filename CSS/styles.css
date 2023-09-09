@@ -30,7 +30,7 @@ header, main, footer {
 
 header {
     background-color:#3a9cab;
-    color: white;
+    h1 {color: white;}
     border-radius: 10px;
     text-align: center;
     margin-top: 30px; 
@@ -94,7 +94,7 @@ footer {
 /* 1 */
 .btn-1 {
   background: #3a9cab;
-  background: linear-gradient(0deg, #68c9d8 0%, #196a77 100%);
+  background: linear-gradient(0deg, #80e1f0 0%, #35c4da 100%);
   border: none;
 }
 .btn-1:hover {
@@ -105,7 +105,7 @@ background: linear-gradient(0deg, #196a77 0%, #6bacb6 100%);
 
 .btn-3 {
   background: #3a9cab;
-background: linear-gradient(0deg, #90dae6 0%, #2f6972 100%);
+background: linear-gradient(0deg, #62afbb 0%, #4bd4e9 100%);
   width: 130px;
   height: 40px;
   line-height: 42px;
