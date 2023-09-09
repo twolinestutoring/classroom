@@ -1,13 +1,13 @@
 
 /* unvisited link */
 a:link {
-  color: #80e1f0;
+  color: #014a55;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: #80e1f0;
+  color: #017081;
 }
 /* mouse over link */
 a:hover {
@@ -16,7 +16,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: #6bc6d4
+  color: #04343b
 }
 
 
@@ -26,11 +26,10 @@ header, main, footer {
     font-family: 'Noto Sans JP', sans-serif;
     padding: 10px;
     /* background-color: #e7fdff; */
-    
 }
 
 header {
-    background-color:#0b5864;
+    background-color:#3a9cab;
     color: white;
     border-radius: 10px;
     text-align: center;
@@ -61,7 +60,7 @@ body{
 }
 
 footer {
-    background-color:#0b5864;
+    background-color:#3a9cab;
     border-radius: 10px;
     text-align: center;
     padding: 5px;
