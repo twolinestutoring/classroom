@@ -7,16 +7,16 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: darkblue;
+  color: #00bd3f;
 }
 /* mouse over link */
 a:hover {
-    color: maroon;
+  color: #39ff7b; 
   }
 
 /* selected link */
 a:active {
-  color: goldenrod;
+  color: #318d50;
 }
 
 
