@@ -37,7 +37,7 @@ header {
 }
 
 h1 {
-    color: white;
+    color: rgb(139, 139, 139);
     font-family: 'Acme', sans-serif;
 }
 h2 {
@@ -92,19 +92,19 @@ footer {
 
 /* 1 */
 .btn-1 {
-  background: rgb(4, 170, 93);
-  background: linear-gradient(0deg, rgb(5, 124, 145) 0%, rgb(12, 204, 188) 100%);
+  background: #3a9cab;
+  background: linear-gradient(0deg, #68c9d8 0%, #196a77 100%);
   border: none;
 }
 .btn-1:hover {
-   background: rgb(0,3,255);
-background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+   background: #6bc6d4;
+background: linear-gradient(0deg, #196a77 0%, #6bacb6 100%);
 }
 
 
 .btn-3 {
-  background: rgb(0,172,238);
-background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+  background: #3a9cab;
+background: linear-gradient(0deg, #90dae6 0%, #2f6972 100%);
   width: 130px;
   height: 40px;
   line-height: 42px;
@@ -124,7 +124,7 @@ background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
   content: "";
   right: 0;
   top: 0;
-   background: rgba(2,126,251,1);
+   background: #0096ad;
   transition: all 0.3s ease;
 }
 .btn-3:before {
@@ -146,7 +146,7 @@ background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
   width: 100%;
 }
 .btn-3 span:hover{
-   color: rgba(2,126,251,1);
+   color: #0096ad;
 }
 .btn-3 span:before,
 .btn-3 span:after {
@@ -154,7 +154,7 @@ background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
   content: "";
   left: 0;
   bottom: 0;
-   background: rgba(2,126,251,1);
+   background: #0096ad;
   transition: all 0.3s ease;
 }
 .btn-3 span:before {
