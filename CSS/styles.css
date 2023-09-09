@@ -1,22 +1,22 @@
 
 /* unvisited link */
 a:link {
-  color: rgb(138, 106, 1);
+  color: rgb(128, 8, 0);
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: rgb(164, 167, 3);
+  color: rgb(179, 12, 0);
 }
 /* mouse over link */
 a:hover {
-  color: rgb(128, 129, 44);
+  color: rgb(128, 94, 0);
   }
 
 /* selected link */
 a:active {
-  color: rgb(167, 129, 3);
+  color: rgb(128, 8, 0);
 }
 
 
