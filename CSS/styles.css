@@ -1,22 +1,22 @@
 
 /* unvisited link */
 a:link {
-  color: rgb(0, 0, 0);
+  color: rgb(0, 216, 133);
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: rgb(104, 82, 42);
+  color: rgb(0, 255, 157);
 }
 /* mouse over link */
 a:hover {
-  color: rgb(255, 188, 3);
+  color: rgb(0, 255, 157);
   }
 
 /* selected link */
 a:active {
-  color: rgb(104, 82, 42);
+  color: rgb(0, 216, 133);
 }
 
 
@@ -25,6 +25,7 @@ header, main, footer {
     margin: 0 auto;
     font-family: 'Noto Sans JP', sans-serif;
     padding: 10px;
+    background-color: #004b53;
     
 }
 
