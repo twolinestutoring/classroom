@@ -29,7 +29,7 @@ header, main, footer {
 }
 
 header {
-    background-color:#7acdda;
+    background-color:#0b5864;
     color: white;
     border-radius: 10px;
     text-align: center;
@@ -38,7 +38,7 @@ header {
 }
 
 h1 {
-    color: #257c8a;
+    color: #01b8d4;
     font-family: 'Acme', sans-serif;
 }
 h2 {
@@ -60,7 +60,7 @@ body{
 }
 
 footer {
-    background-color:#7acdda;
+    background-color:#0b5864;
     border-radius: 10px;
     text-align: center;
     padding: 5px;
