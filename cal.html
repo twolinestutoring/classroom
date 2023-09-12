@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="CSS/style.css">
+    <!-- <link rel="stylesheet" href="CSS/style.css"> -->
 <style>
       * {box-sizing: border-box}
       
@@ -14,7 +14,7 @@
       header{
         color:#d3d3d3;
         background-color: Navy;
-        padding:20px
+        padding:20px;
 
       }
 
@@ -85,29 +85,37 @@
       <li><a href="week1.html" target="_blank">Week 1 Notes</a></li>
       <li><a href="week2.html" target="_blank">Week 2 Notes</a></li>
       <li><a href="week3.html" target="_blank">Week 3 Notes</a></li>
+      <li><a href="week4.html" target="_blank">Week 4 Notes</a></li>
+      <li><a href="week5.html" target="_blank">Week 5 Notes</a></li>
+      <li><a href="week6.html" target="_blank">Week 6 Notes</a></li>
+      <li><a href="week7.html" target="_blank">Week 7 Notes</a></li>
+      <li><a href="final.html" target="_blank">Final Notes</a></li>
       
-
     </ul>
   </nav>
  
-  <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
-  <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
-  <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
-  <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+  <button class="tablink" onclick="openPage('Overview', this, 'navy')">Overview</button>
+  <button class="tablink" onclick="openPage('News', this, 'gray')" id="defaultOpen">News</button>
+  <button class="tablink" onclick="openPage('Career', this, 'navy')">Career</button>
+  <button class="tablink" onclick="openPage('About', this, 'gray')">About</button>
   
-  <div id="Home" class="tabcontent">
-    <h3>Home</h3>
-    <p>Home is where the heart is..</p>
+  <div id="Overview" class="tabcontent">
+    <h3>Overview</h3>
+    <pre>
+        Website development is simply the creation, build and maintenance of a website. This includes markup (the language developers use to create websites, such as HTML), coding (the programming language), network configuration and CMS (content management system).
+        Many use "web development" to describe the actual construction of websites. It includes what you find "under the hood," or on the back end of a website, as well as any coding needed for the visible part of your website, or the "front end." 
+    </pre>
   </div>
   
   <div id="News" class="tabcontent">
     <h3>News</h3>
-    <p>Some news this fine day!</p> 
+    <p>Some news this fine day!</p>
   </div>
   
-  <div id="Contact" class="tabcontent">
-    <h3>Contact</h3>
-    <p>Get in touch, or swing by for a cup of coffee.</p>
+  <div id="Career" class="tabcontent">
+    <h3>Career</h3>
+    <p>What jobs are avalible for web developers?</p>
+    <li><a href="https://brainstation.io/career-guides/what-is-web-development" target="_blank">Brainstation</a></li>
   </div>
   
   <div id="About" class="tabcontent">
