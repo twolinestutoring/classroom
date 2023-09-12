@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+<style>
+      * {box-sizing: border-box}
+      
+      /* https://www.w3schools.com/css/css_colors.asp */
+
+      header{
+        color:#d3d3d3;
+        background-color: Navy;
+        padding:20px
+
+      }
+
+      nav{
+        color:rgb(202, 202, 202);
+        background-color: Navy;
+        padding-left:10px;
+      }
+
+
+      /* Set height of body and the document to 100% */
+      body, html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial;
+      }
+      
+      /* Style tab links */
+      .tablink {
+        background-color: #d3d3d3;
+        color: navy;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        font-size: 17px;
+        width: 25%;
+      }
+      
+      .tablink:hover {
+        background-color: #777;
+      }
+      
+      /* Style the tab content (and add height:100% for full page content) */
+      .tabcontent {
+        color: white;
+        display: none;
+        padding: 100px 20px;
+        height: 100%;
+      }
+      
+      #Home {background-color: darkblue;}
+      #News {background-color: rgb(82, 82, 82);}
+      #Contact {background-color: darkblue;}
+      #About {background-color: rgb(82, 82, 82);}
+</style>
+
+
+</head>
+<body>    
+
+<header>
+ 
+  <div class="navbar">
+    <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+    <!-- <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+    <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+    <a href="#"><i class="fa fa-fw fa-user"></i> Login</a> -->
+  </div>
+     
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://docs.google.com/presentation/d/14PsXOsFlwPOYJBOhiRUtJLlsOdqeh79OrF1A48wr0D0/edit#slide=id.g18a09a1386d_0_252" target="_blank">notes</a></li>
+      <li><a href="week1.html" target="_blank">Week 1 Notes</a></li>
+      <li><a href="week2.html" target="_blank">Week 2 Notes</a></li>
+      <li><a href="week3.html" target="_blank">Week 3 Notes</a></li>
+      
+
+    </ul>
+  </nav>
+ 
+  <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+  <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+  <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+  <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+  
+  <div id="Home" class="tabcontent">
+    <h3>Home</h3>
+    <p>Home is where the heart is..</p>
+  </div>
+  
+  <div id="News" class="tabcontent">
+    <h3>News</h3>
+    <p>Some news this fine day!</p> 
+  </div>
+  
+  <div id="Contact" class="tabcontent">
+    <h3>Contact</h3>
+    <p>Get in touch, or swing by for a cup of coffee.</p>
+  </div>
+  
+  <div id="About" class="tabcontent">
+    <h3>About</h3>
+    <p>Who we are and what we do.</p>
+  </div>
+  
+  <table>
+     
+    <thead>
+    <tr>
+    <th>tiffs knowlage of coding </th>
+    <th>cals knowlage of coding</   th>
+   </tr> 
+    </thead>
+      <tbody>
+    <tr>
+    <td>12,345,678,909,876,543,266,576,533,456,789,535,378,579,597,465,352</td>
+    <td>6,365,875,354,275</td>
+    </tr>
+    </tb>    
+    </table>
+    
+
+  
+  <article>
+    <h1>tiff</h1>
+    <p>1 she gives good lessons that teach you all about what you need to know</p>
+    <p>2 she is nice and she almost never gets angry</p>
+  </article>
+</section>
+
+<footer>
+
+
+
+  <script>
+    function openPage(pageName,elmnt,color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(pageName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+    </script>
+</footer>
+
+</body>
+</html>

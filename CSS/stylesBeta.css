@@ -32,12 +32,12 @@ header, main, footer {
 }
 
 header {
-    h1 { color: white; }
     background-color: #3a9cab;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     text-align: center;
     margin-top: 30px; 
-    border-style: groove;
+    /* border-style: groove; */
+    h1 { color: white; }
 }
 
 h1 {
