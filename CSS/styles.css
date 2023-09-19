@@ -36,10 +36,12 @@ header {
     margin-top: 30px; 
     border-style: groove;
 }
-container {
+.container {
     border-color: #017081;
     border-style: ridge;
     border-radius: 15px;
+    padding: 15px;
+    box-shadow: #4bd4e9;
 }
 
 h1 {
