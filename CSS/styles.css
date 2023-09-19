@@ -37,12 +37,12 @@ header {
     border-style: groove;
 }
 .container {
-    /* border-color: #017081;
-    border-style: ridge; */
+    border-color: #3a9cab;
+    border-style: ridge;
     border-radius: 15px;
     padding: 15px;
     margin: 15px;
-    box-shadow: #4bd4e9;
+    box-shadow: #014a55;
 }
 
 h1 {
