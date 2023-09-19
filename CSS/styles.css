@@ -36,13 +36,18 @@ header {
     margin-top: 30px; 
     border-style: groove;
 }
+div {
+    border-color: #017081;
+    border-style: ridge;
+    border-radius: 15px;
+}
 
 h1 {
     color: #01b8d4;
     font-family: 'Acme', sans-serif;
 }
 h2 {
-    border-bottom: 1px solid rgb(0, 0, 0);
+    /* border-bottom: 1px solid rgb(0, 0, 0); */
     padding: 10px;
 }
 
