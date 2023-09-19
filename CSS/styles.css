@@ -36,7 +36,7 @@ header {
     margin-top: 30px; 
     border-style: groove;
 }
-div {
+container {
     border-color: #017081;
     border-style: ridge;
     border-radius: 15px;
