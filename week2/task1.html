@@ -8,14 +8,18 @@
     <style>
         /* Optional CSS styling for the code box */
         pre {
-            background-color: #3a3838;
-            color: whitesmoke;
-            border: 1px solid #858585;
             padding: 10px;
             overflow: auto;
         }
         code {
             font-family: "Courier New", monospace;
+        }
+        .box {
+            background-color: #3a3838;
+            color: whitesmoke;
+            border: 1px solid #858585;
+            width: 50%;
+            align-items: center;
         }
     </style>
 
@@ -46,59 +50,68 @@
     <h3>Step 3: Creating Links</h3>
     <p>Explain the concept of hyperlinks and how to create links in HTML using the `<a>` (anchor) element. Instruct students to create a navigation menu with three links to different web pages (you can use placeholders like `#` for the URLs):</p>
     
-
-    <pre><code>
-        ```html
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        ```
-     </code></pre>
+    <div class="box">
+        <pre><code>
+            ```html
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            ```
+        </code></pre>
+    </div>
 
     <h3>Step 4: Basic Button Styling</h3>
     <p>Teach students how to create a basic button using an HTML <code><button></code> element. Then, introduce them to basic CSS for styling. In your CSS file (styles.css), include the following code:</p>
     
-    <pre><code>
-        ```
-        /* Basic button styling */
-        button {
-            padding: 10px 20px;
-            background-color: #3498db;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-        }
-        ```
-     </code></pre>
+    <div class="box">
+        <pre>
+            <code>
+                ```
+                /* Basic button styling */
+                button {
+                    padding: 10px 20px;
+                    background-color: #3498db;
+                    color: #fff;
+                    border: none;
+                    cursor: pointer;
+                }
+                ```
+            </code>
+        </pre>
+    </div>
     
     
      <p>In the HTML file, create a button:</p>
     
-     <pre><code>
-        <button>Click Me</button>
-    </code></pre>
+     <div class="box">
+        <pre><code>
+            <button>Click Me</button>
+        </code></pre>
+     </div>
 
     <h3>Step 5: Hover Effect</h3>
     <p></p>Introduce students to the concept of hover effects. Modify the CSS to include a hover effect for both links and buttons:</p>
     
-    <pre><code>
-        ```css
-        /* Hover effect for links */
-        a:hover {
-            color: #e74c3c;
-            text-decoration: underline;
-        }
-        
-        /* Hover effect for buttons */
-        button:hover {
-            background-color: #e74c3c;
-        }
-        ```
-     </code></pre>
+    <div class="box">
+        <pre><code>
+            ```css
+            /* Hover effect for links */
+            a:hover {
+                color: #e74c3c;
+                text-decoration: underline;
+            }
+            
+            /* Hover effect for buttons */
+            button:hover {
+                background-color: #e74c3c;
+            }
+            ```
+        </code></pre>
+    </div>
 
      <h3>Step 6: Additional Styling</h3>
      <p>Encourage students to explore more styling options. They can modify fonts, add borders, change text alignment, etc., to further enhance the appearance of links and buttons.</p>
