@@ -71,7 +71,7 @@ body{
 .box {
   margin: 5px;
   padding: 5px;
-
+  align-items: center;
 }
 
   /* Optional CSS styling for the code box */
