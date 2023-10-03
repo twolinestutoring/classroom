@@ -67,6 +67,7 @@ body{
     font-size: 16px;
 }
 
+/* Optional CSS styling for the code box */
 .box {
   margin: 10px;
   box-shadow: 5px 5px 7px grey;
@@ -77,11 +78,9 @@ body{
   width: 75%;
 }
 
-
-  /* Optional CSS styling for the code box */
-  pre {
-    padding: 10px;
-    overflow: auto;
+pre {
+  padding: 10px;
+  overflow: auto;
 }
 code {
     font-family: "Courier New", monospace;
