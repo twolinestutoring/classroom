@@ -68,13 +68,17 @@ body{
 }
 
 
+.box {
+  margin: 5px;
+  padding: 5px;
 
+}
 
   /* Optional CSS styling for the code box */
   pre {
     background-color: #202020;
     border: 1px solid #ccc;
-    padding: 10px;
+    /* padding: 10px; */
     overflow: auto;
     width: 50%;
 }
