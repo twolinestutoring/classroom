@@ -67,20 +67,18 @@ body{
     font-size: 16px;
 }
 
-
 .box {
-  margin: 5px;
-  padding: 5px;
-  align-items: center;
+  margin: 10px;
 }
+
 
   /* Optional CSS styling for the code box */
   pre {
     background-color: #202020;
     border: 1px solid #ccc;
-    /* padding: 10px; */
+    padding: 10px;
     overflow: auto;
-    width: 50%;
+    width: 60%;
 }
 code {
     font-family: "Courier New", monospace;
