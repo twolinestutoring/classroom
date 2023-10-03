@@ -69,13 +69,16 @@ body{
 
 .box {
   margin: 10px;
+  box-shadow: 5px 5px 7px grey;
+  background-color: #202020;
+  border: 1px solid #ccc;
+  border-style: groove;
+  border-radius: 15px;
 }
 
 
   /* Optional CSS styling for the code box */
   pre {
-    background-color: #202020;
-    border: 1px solid #ccc;
     padding: 10px;
     overflow: auto;
     width: 60%;
