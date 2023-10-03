@@ -3,26 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="/classroom/CSS/styles.css""> -->
+    <link rel="stylesheet" href="/classroom/CSS/styles.css"">
     <title>Link and Button Styling</title>
-    <style>
-        /* Optional CSS styling for the code box */
-        pre {
-            padding: 10px;
-            overflow: auto;
-        }
-        code {
-            font-family: "Courier New", monospace;
-        }
-        .box {
-            background-color: #c4c4c4;
-            color: rgb(32, 32, 32);
-            border: 5px solid #1b197a;
-            border-radius: 15px;
-            width: 50%;
-            align-self: center;
-        }
-    </style>
 
 </head>
 <body>
@@ -50,50 +32,40 @@
     <p>Explain the concept of hyperlinks and how to create links in HTML using the `<a>` (anchor) element. Instruct students to create a navigation menu with three links to different web pages (you can use placeholders like `#` for the URLs):</p>
     
     <div class="box">
-        <pre>
-            <code>
-                ```html
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-                ```
-            </code>
-        </pre>
+        <pre><code>
+&lt;nav&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+        </code></pre>
     </div>
 
     <h3>Step 4: Basic Button Styling</h3>
     <p>Teach students how to create a basic button using an HTML button element. Then, introduce them to basic CSS for styling. In your CSS file (styles.css), include the following code:</p>
     
     <div class="box">
-        <pre>
-            <code>
-                ```
-                /* Basic button styling */
-                button {
-                    padding: 10px 20px;
-                    background-color: #3498db;
-                    color: #fff;
-                    border: none;
-                    cursor: pointer;
-                }
-                ```
-            </code>
-        </pre>
+        <pre><code>
+        /* Basic button styling */
+        button {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        </code></pre>
     </div>
     
     
      <p>In the HTML file, create a button:</p>
     
      <div class="box">
-        <pre>
-            <code>
-                <button>Click Me</button>
-            </code>
-        </pre>
+        <pre><code>
+    &lt;button&gt;Click Me&lt;/button&gt;
+        </code></pre>
      </div>
 
     <h3>Step 5: Hover Effect</h3>
@@ -101,18 +73,18 @@
     
     <div class="box">
         <pre><code>
-            ```css
-            /* Hover effect for links */
-            a:hover {
-                color: #e74c3c;
-                text-decoration: underline;
-            }
-            
-            /* Hover effect for buttons */
-            button:hover {
-                background-color: #e74c3c;
-            }
-            ```
+    ```css
+    /* Hover effect for links */
+    a:hover {
+        color: #e74c3c;
+        text-decoration: underline;
+    }
+    
+    /* Hover effect for buttons */
+    button:hover {
+        background-color: #e74c3c;
+    }
+    ```
         </code></pre>
     </div>
 
