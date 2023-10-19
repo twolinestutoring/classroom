@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/classroom/CSS/styles.css"">
+    <title>Lab 4</title>
+
+</head>
+<body>
+    <!-- https://magictool.ai/tool/html-decoder-encoder/ - HTML Decoder for Code Box display  -->
+
+
+    <h1>Accordion FAQ</h1>
+
+    <h2>Application</h2> 
+    <p>We will be creating an accordian using FAQ's about Computer Engeneering.</p>    
+    <pre>
+    What is computer engineering?
+    Computer engineering is a discipline that combines electrical engineering and computer science. It focuses on designing and developing computer systems, hardware, and software.
+
+    What's the difference between computer engineering and computer science?
+    Computer engineering primarily deals with designing and building computer hardware and embedded systems, whereas computer science focuses on software development and algorithms.
+
+    What are the career opportunities in computer engineering?
+    Computer engineers can work in various fields, including hardware design, software development, network engineering, robotics, embedded systems, and cybersecurity.
+
+    What skills are essential for a computer engineering career?
+    Essential skills include programming languages (e.g., C, C++, Java), knowledge of digital systems, circuit design, problem-solving, and understanding of algorithms and data structures.
+
+    How do computer engineers contribute to the tech industry?
+    Computer engineers play a crucial role in developing the latest technologies, including smartphones, computer processors, IoT devices, and advanced software applications.
+
+    What's the future of computer engineering?
+    The computer engineering field continues to evolve, with growth in areas like artificial intelligence, cybersecurity, and automation, offering promising career opportunities.
+
+    What are some emerging trends in computer engineering?
+    Emerging trends include edge computing, quantum computing, 5G technology, Internet of Things (IoT), and machine learning.
+
+    Do computer engineers need to stay updated with the latest technologies?
+    Yes, staying current with advancements in technology is essential for computer engineers, as the industry continually evolves.
+
+    How do I become a computer engineer?
+    To become a computer engineer, you typically need a bachelor's degree in computer engineering, electrical engineering, or a related field. Further education or certifications can enhance career prospects.
+
+    What are some notable challenges in computer engineering?
+    Challenges include addressing security threats, keeping up with rapid technological changes, and designing energy-efficient hardware.
+
+    Are internships important for computer engineering students?
+    Yes, internships provide practical experience and networking opportunities. They can significantly enhance a student's chances of securing a job after graduation.
+
+    What's the role of computer engineers in sustainability and environmental concerns?
+    Computer engineers work on developing energy-efficient hardware and software, contributing to reducing the environmental impact of technology.
+    </pre>
+
+    <h2>Instructions:</h2>
+    
+    <h3>Step 1:</h3>
+    <P>Choose 3-5 of the Computer Engeneering FQA's to include in your project and create the HTML for your project.</P>
+    <p>Remember the HTML structure includes a list of questions and answers. Initially, all answer sections are hidden (set to display: none in the CSS). You can use the following code as a refrence. You will need to make changes to include your Questions and the coresponding answer.</p>
+    <div class="box">
+        <pre><code>
+            
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Accordion FAQ&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;faq&quot;&gt;
+        &lt;div class=&quot;question&quot;&gt;
+            &lt;h2&gt;Question 1&lt;/h2&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;answer&quot;&gt;
+            &lt;p&gt;Answer to Question 1 goes here.&lt;/p&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;question&quot;&gt;
+            &lt;h2&gt;Question 2&lt;/h2&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;answer&quot;&gt;
+            &lt;p&gt;Answer to Question 2 goes here.&lt;/p&gt;
+        &lt;/div&gt;
+        
+        &lt;!-- Add more questions and answers as needed --&gt;
+    &lt;/div&gt;
+    &lt;script src=&quot;script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+        </code></pre>
+    </div>
+
+
+    <h3>Step 2: Make you CSS</h3>
+    <p>you can change the look of your accordian using the CSS. Use the folowing code is a guide, but make changes to the colors. You can also add borders or box shadow to experiment more with CSS.</p>
+    <p>CSS is used to style the questions as clickable buttons. When a question is clicked, it becomes "active" and is highlighted. You can customize the styling to match your design preferences.</p>
+    <div class="box">
+        <pre><code>
+/* Hide all answer sections by default */
+.answer {
+    display: none;
+}
+
+/* Style for questions to make them look like clickable buttons */
+.question {
+    background-color: #f0f0f0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Style for active questions */
+.question.active {
+    background-color: #ccc;
+}
+        </code></pre>
+    </div>
+
+    <h3>Step 3: Add JavaScript</h3>
+    <p>JavaScript is used to add interactivity. It listens for click events on the questions. When a question is clicked, it toggles the 'active' class to change the styling, and it toggles the display of the associated answer section. This creates the accordion effect.</p>
+    
+    <div class="box">
+        <pre><code>
+const questions = document.querySelectorAll('.question');
+
+questions.forEach((question) =&gt; {
+    question.addEventListener('click', () =&gt; {
+        // Toggle the 'active' class for the clicked question
+        question.classList.toggle('active');
+
+        // Get the associated answer element
+        const answer = question.nextElementElement;
+
+        // Toggle the display of the answer
+        if (question.classList.contains('active')) {
+            answer.style.display = 'block';
+        } else {
+            answer.style.display = 'none';
+        }
+    });
+});
+        </code></pre>
+    </div>
+    
+    
+
+</body>
+</html>
+
+
